@@ -20,6 +20,11 @@ jre:
   version: 1.7.0_51
   repository_root: "{default.repository.root}/openjdk/{platform}/{architecture}"
 
+memory_calculator:
+  version: 2.+
+  repository_root: "{default.repository.root}/memory-calculator/{platform}/{architecture}"
+  stack_threads: 300
+  
   memory_sizes:
     
     permgen: 64m..
